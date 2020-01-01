@@ -47,7 +47,7 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
   int _counter = 0;
-  List<String> items = ["1", "2", "3", "4", "5", "6", "7", "8","9","10"];
+  List<String> items = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"];
   void _incrementCounter() {
     setState(() {
       // This call to setState tells the Flutter framework that something has

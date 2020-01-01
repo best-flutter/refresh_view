@@ -2,7 +2,7 @@ name: refresh_view
 description: refresh view ,make refreshable list view easy.
 version: 0.0.1
 author: jzoom<jzoom8112@gmail.com>
-homepage:
+homepage: https://github.com/best-flutter/refresh_view
 
 environment:
   sdk: ">=2.1.0 <3.0.0"
@@ -10,7 +10,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  pull_to_refresh:
+  pull_to_refresh: ^1.5.7
 
 dev_dependencies:
   flutter_test:

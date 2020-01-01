@@ -1,6 +1,5 @@
 library refresh_view;
 
-
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:pull_to_refresh/pull_to_refresh.dart';
@@ -75,10 +74,10 @@ class StateListView<T> extends StatefulWidget {
 
   StateListView(
       {this.requestData,
-        this.itemBuilder,
-        this.itemExtent,
-        this.footerBuilder,
-        this.headerBuilder});
+      this.itemBuilder,
+      this.itemExtent,
+      this.footerBuilder,
+      this.headerBuilder});
 
   @override
   _StateListViewState<T> createState() => _StateListViewState<T>();
@@ -86,7 +85,7 @@ class StateListView<T> extends StatefulWidget {
 
 class _StateListViewState<T> extends State<StateListView> {
   RefreshController _refreshController =
-  new RefreshController(initialRefresh: false);
+      new RefreshController(initialRefresh: false);
 
   bool _footer = false;
 
